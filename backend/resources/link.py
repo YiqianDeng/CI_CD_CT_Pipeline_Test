@@ -22,7 +22,7 @@ class LinkAPI(Resource):
     # def get(self):
     #     return 'Link not found', 200
 
-    def get(self, link_id):
+    def get                                                   (self, link_id):
         if link_id is None:
             return "Link not found", 200
         try:
